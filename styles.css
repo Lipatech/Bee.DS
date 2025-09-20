@@ -1,0 +1,112 @@
+body { 
+  margin: 0; 
+  font-family: 'Segoe UI', sans-serif; 
+  background: linear-gradient(to bottom, #fcde67, #FFE4E1, #d362d8); 
+  display: flex; 
+  justify-content: center; 
+  height: 100vh; 
+} 
+  
+  .wrapper { 
+    width: 100%; 
+    height: 100%; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: space-between; 
+  } 
+  
+  header { 
+    width: 100%; 
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center; 
+    padding: 20px 40px; 
+    box-sizing: border-box; 
+  } 
+  
+  .menu { 
+    position: relative; 
+  } 
+  
+  .dropdown { 
+    background: none; 
+    border: none; 
+    padding: 0; 
+    margin: 0; 
+    cursor: pointer; 
+  } 
+  
+  .dropdown img { 
+    width: 50px; 
+    height: auto; 
+  } 
+  
+  .dropdown-content { 
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 60px; 
+    /* background: #e496e8; */
+    border-radius: 10px;
+    padding: 8px 12px;
+    flex-direction: row;
+    gap: 10px;
+  } 
+  
+  .menu:hover .dropdown-content { 
+    display: flex; 
+  } 
+  
+  .dropdown-content a { 
+ 
+    border-radius: 10px;
+    padding: 8px 20px;
+    color: #5f0b63;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.3s;
+    width: max-content;
+    text-align: center;
+    white-space: nowrap; 
+  } 
+  
+  .dropdown-content a:hover { 
+    background-color: #f096ee; 
+  }
+  
+  .dropdown-content.show {
+    display: flex;
+  }
+  
+  /* .sub-dropdown { 
+    position: relative; 
+  } 
+  
+  .sub-dropdown-content { 
+    display: none; 
+    position: absolute; 
+    top: 0; 
+    left: 100%; 
+    background-color: #fff; 
+    min-width: 160px; 
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); 
+  } 
+  
+  .sub-dropdown-content.show { 
+    display: block; 
+  } 
+  
+  .sub-dropdown:hover .sub-dropdown-content { 
+    display: block; 
+  }  */
+  
+  .logo { 
+    text-align: center; 
+    margin-bottom: 220px; 
+  } 
+  
+  .logo img { 
+    width: 400px; 
+    max-width: 90%; 
+  }
