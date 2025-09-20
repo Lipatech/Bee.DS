@@ -79,28 +79,6 @@ body {
     display: flex;
   }
   
-  /* .sub-dropdown { 
-    position: relative; 
-  } 
-  
-  .sub-dropdown-content { 
-    display: none; 
-    position: absolute; 
-    top: 0; 
-    left: 100%; 
-    background-color: #fff; 
-    min-width: 160px; 
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2); 
-  } 
-  
-  .sub-dropdown-content.show { 
-    display: block; 
-  } 
-  
-  .sub-dropdown:hover .sub-dropdown-content { 
-    display: block; 
-  }  */
-  
   .logo { 
     text-align: center; 
     margin-bottom: 220px; 
@@ -109,4 +87,5 @@ body {
   .logo img { 
     width: 400px; 
     max-width: 90%; 
+
   }
