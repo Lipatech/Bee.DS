@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300;0,18..144,300..900&display=swap');
+
 body { 
     margin: 0; 
-    font-family: 'Segoe UI', sans-serif; 
+    font-family: 'Merriweather', serif;
     background: linear-gradient(to bottom, #fbef95, #ffd0f3); 
     display: flex; 
     justify-content: center; 
     height: 100%; 
+
   } 
     
     .wrapper { 
@@ -26,6 +29,18 @@ body {
       box-sizing: border-box; 
       position: relative;
     } 
+    
+    header h1 {
+      padding-top: 40px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      margin: 0;
+      font-size: 1.8rem;
+      color: #5f0b63;
+      font-family: 'Merriweather';
+      font-size: 2rem;
+    }
 
     main {
       text-align: center;
@@ -38,17 +53,10 @@ body {
       color: #000000;
       font-size: 1.1rem;
       line-height: 1.6;
+      font-style: italic;
     }
 
     main img {
-      /* display: center;
-      margin: 0 auto;
-      margin: 20px 0;
-      max-width: 100%;
-      height: auto;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
-
       margin: 20px auto;
       width: 400px;
       max-width: 100%;
@@ -123,16 +131,6 @@ body {
     }
 
 footer {
-    /* background: none; */
-    /* width: 100%; */
-    /* text-align: center;
-    padding: 60px ;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px; */
-
     width: 100%;
     text-align: center;
     padding: 20px;
@@ -146,6 +144,7 @@ footer {
 
 footer img {
   margin: 0 5px;
+  margin-left: 5px;
   cursor: pointer;
 }
 
@@ -160,6 +159,7 @@ footer p {
   display: flex;
   gap: 10px;
 }
+
 
 .social-icons img {
   cursor: pointer;
