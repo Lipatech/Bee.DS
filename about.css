@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300;0,18..144,300..900&display=swap');
-
 body { 
     margin: 0; 
-    font-family: 'Merriweather', serif;
+    font-family: 'Segoe UI', serif;
     background: linear-gradient(to bottom, #fbef95, #ffd0f3); 
     display: flex; 
     justify-content: center; 
@@ -38,7 +36,7 @@ body {
       margin: 0;
       font-size: 1.8rem;
       color: #5f0b63;
-      font-family: 'Merriweather';
+      font-family: 'Segoe UI';
       font-size: 2rem;
     }
 
